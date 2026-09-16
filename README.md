@@ -6,15 +6,6 @@ RMBench: Memory-Dependent Robotic Manipulation Benchmark with Insights into Poli
 >
 > This is an anonymized repository released solely for peer review. Links that could reveal author identity (paper PDF, arXiv, model hubs, community pages) have been removed and will be restored upon acceptance.
 
-# 📰 Updates
-
-**2026.07.14** — Since the previously trained Mem-0 checkpoints were not backed up before our development machine was recycled, we have re-organized the training and now publicly release the retrained model weights:
-
-- **M(1) tasks**: due to limited computational resources, all M1 tasks were trained jointly into a single multi-task `m1_mix` model. The complete model, the processed `m1_mix` dataset, training/inference configs, and all evaluation logs and videos are publicly released (Hugging Face links removed for double-blind review; they will be restored upon acceptance).
-- **M(n) tasks**: per-task execution-module checkpoints for `battery_try`, `blocks_ranking_try`, `cover_blocks` and `press_button`, together with per-task normalization stats and evaluation results, are also released (links removed for double-blind review).
-
-Detailed evaluation results can be found in the released model cards (links withheld during review).
-
 # 🧑🏻‍💻 RMBench Usage
 
 > This project is built upon [RoboTwin 2.0](https://github.com/robotwin-Platform/RoboTwin), and you can seamlessly transfer your policy code between the two projects.
